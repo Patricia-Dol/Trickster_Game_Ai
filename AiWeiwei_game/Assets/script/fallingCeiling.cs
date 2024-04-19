@@ -6,7 +6,7 @@ public class fallingCeiling : MonoBehaviour
 {
     public Rigidbody2D ceilingRb; // Changed from Rigidbody to Rigidbody2D since you're using 2D colliders
     public GameObject panelToAppear; // Reference to the panel to appear
-    public float panelDisplayTime = 5f; // Time in seconds to display the panel
+    public float panelDisplayTime = 3f; // Time in seconds to display the panel
 
     public Collider2D listCollider;
     public Collider2D starCollider;
